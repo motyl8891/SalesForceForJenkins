@@ -4,4 +4,5 @@ A__c a = trigger.new[0];
     {
         AutomateApprovalRequest2.submitApproval(a.id);
     }
+    // some comment to test github&Jenkins v1
 }

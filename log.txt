@@ -1,0 +1,641 @@
+Buildfile: C:\Users\slawomir.golabek\Desktop\salesforcegit\SalesforceGit\build.xml
+
+deployEmptyCheckOnly:
+     [echo] Testing the deploy
+[sf:deploy] Request for a deploy submitted successfully.
+[sf:deploy] Request ID for the current deploy task: 0Af2400000ihX1hCAE
+[sf:deploy] Waiting for server to finish processing the request...
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: Failed
+[sf:deploy] Debugging Information:
+[sf:deploy] 33.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO
+[sf:deploy] 23:27:16.778 (6778448939)|EXECUTION_STARTED
+[sf:deploy] 23:27:16.778 (6778476485)|CODE_UNIT_STARTED|[EXTERNAL]|01p24000005QoUn|ChangePasswordControllerTest.testChangePasswordController
+[sf:deploy] 23:27:16.778 (6778866845)|METHOD_ENTRY|[4]|01p24000005QoUn|ChangePasswordControllerTest.ChangePasswordControllerTest()
+[sf:deploy] 23:27:16.779 (6779550923)|METHOD_EXIT|[4]|ChangePasswordControllerTest
+[sf:deploy] 23:27:16.779 (6779626762)|METHOD_ENTRY|[4]|01p24000005QoUm|ChangePasswordController.ChangePasswordController()
+[sf:deploy] 23:27:16.779 (6779639042)|METHOD_EXIT|[4]|ChangePasswordController
+[sf:deploy] 23:27:16.779 (6779669454)|CONSTRUCTOR_ENTRY|[7]|01p24000005QoUm|<init>()
+[sf:deploy] 23:27:16.779 (6779737864)|CONSTRUCTOR_EXIT|[7]|01p24000005QoUm|<init>()
+[sf:deploy] 23:27:16.779 (6779906528)|METHOD_ENTRY|[12]|01p24000005QoUm|test40.ChangePasswordController.changePassword()
+[sf:deploy] 23:27:16.780 (6780114037)|METHOD_EXIT|[12]|01p24000005QoUm|test40.ChangePasswordController.changePassword()
+[sf:deploy] 23:27:16.780 (6780165280)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:16.780 (6780208278)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 23:27:16.780 (6780208278)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 0 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:16.780 (6780208278)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 23:27:16.780 (6780250139)|CODE_UNIT_FINISHED|ChangePasswordControllerTest.testChangePasswordController
+[sf:deploy] 23:27:16.785 (6785708528)|EXECUTION_FINISHED
+[sf:deploy] 23:27:16.887 (6887989665)|EXECUTION_STARTED
+[sf:deploy] 23:27:16.888 (6888002312)|CODE_UNIT_STARTED|[EXTERNAL]|01p24000005QoUv|CommunitiesLandingControllerTest.testCommunitiesLandingController
+[sf:deploy] 23:27:16.888 (6888310072)|METHOD_ENTRY|[4]|01p24000005QoUv|CommunitiesLandingControllerTest.CommunitiesLandingControllerTest()
+[sf:deploy] 23:27:16.888 (6888855617)|METHOD_EXIT|[4]|CommunitiesLandingControllerTest
+[sf:deploy] 23:27:16.888 (6888975875)|METHOD_ENTRY|[4]|01p24000005QoUu|CommunitiesLandingController.CommunitiesLandingController()
+[sf:deploy] 23:27:16.888 (6888988312)|METHOD_EXIT|[4]|CommunitiesLandingController
+[sf:deploy] 23:27:16.889 (6889018819)|CONSTRUCTOR_ENTRY|[7]|01p24000005QoUu|<init>()
+[sf:deploy] 23:27:16.889 (6889091394)|CONSTRUCTOR_EXIT|[7]|01p24000005QoUu|<init>()
+[sf:deploy] 23:27:16.889 (6889115276)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 23:27:16.889 (6889115276)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 0 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:16.889 (6889115276)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 23:27:16.889 (6889158827)|CODE_UNIT_FINISHED|CommunitiesLandingControllerTest.testCommunitiesLandingController
+[sf:deploy] 23:27:16.890 (6890639364)|EXECUTION_FINISHED
+[sf:deploy] 23:27:16.965 (6965950848)|EXECUTION_STARTED
+[sf:deploy] 23:27:16.965 (6965965040)|CODE_UNIT_STARTED|[EXTERNAL]|01p24000005QoUt|CommunitiesLoginControllerTest.testCommunitiesLoginController
+[sf:deploy] 23:27:16.966 (6966286565)|METHOD_ENTRY|[4]|01p24000005QoUt|CommunitiesLoginControllerTest.CommunitiesLoginControllerTest()
+[sf:deploy] 23:27:16.966 (6966911727)|METHOD_EXIT|[4]|CommunitiesLoginControllerTest
+[sf:deploy] 23:27:16.967 (6967024929)|METHOD_ENTRY|[4]|01p24000005QoUs|CommunitiesLoginController.CommunitiesLoginController()
+[sf:deploy] 23:27:16.967 (6967038184)|METHOD_EXIT|[4]|CommunitiesLoginController
+[sf:deploy] 23:27:16.967 (6967067995)|CONSTRUCTOR_ENTRY|[7]|01p24000005QoUs|<init>()
+[sf:deploy] 23:27:16.967 (6967138347)|CONSTRUCTOR_EXIT|[7]|01p24000005QoUs|<init>()
+[sf:deploy] 23:27:16.967 (6967163457)|METHOD_ENTRY|[8]|01p24000005QoUs|test40.CommunitiesLoginController.forwardToAuthPage()
+[sf:deploy] 23:27:16.967 (6967209629)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:16.967 (6967382701)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:16.967 (6967410645)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:16.967 (6967486304)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:16.967 (6967650089)|METHOD_EXIT|[8]|01p24000005QoUs|test40.CommunitiesLoginController.forwardToAuthPage()
+[sf:deploy] 23:27:16.967 (6967667324)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:16.967 (6967706407)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 23:27:16.967 (6967706407)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 0 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:16.967 (6967706407)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 23:27:16.967 (6967757813)|CODE_UNIT_FINISHED|CommunitiesLoginControllerTest.testCommunitiesLoginController
+[sf:deploy] 23:27:16.969 (6969550955)|EXECUTION_FINISHED
+[sf:deploy] 23:27:17.048 (7048584345)|EXECUTION_STARTED
+[sf:deploy] 23:27:17.048 (7048597760)|CODE_UNIT_STARTED|[EXTERNAL]|01p24000005QoUz|CommunitiesSelfRegConfirmControllerTest.testCommunitiesSelfRegConfirmController
+[sf:deploy] 23:27:17.048 (7048905072)|METHOD_ENTRY|[4]|01p24000005QoUz|CommunitiesSelfRegConfirmControllerTest.CommunitiesSelfRegConfirmControllerTest()
+[sf:deploy] 23:27:17.049 (7049618876)|METHOD_EXIT|[4]|CommunitiesSelfRegConfirmControllerTest
+[sf:deploy] 23:27:17.049 (7049731418)|METHOD_ENTRY|[4]|01p24000005QoUy|CommunitiesSelfRegConfirmController.CommunitiesSelfRegConfirmController()
+[sf:deploy] 23:27:17.049 (7049744144)|METHOD_EXIT|[4]|CommunitiesSelfRegConfirmController
+[sf:deploy] 23:27:17.049 (7049773553)|CONSTRUCTOR_ENTRY|[7]|01p24000005QoUy|<init>()
+[sf:deploy] 23:27:17.049 (7049842344)|CONSTRUCTOR_EXIT|[7]|01p24000005QoUy|<init>()
+[sf:deploy] 23:27:17.049 (7049866001)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 23:27:17.049 (7049866001)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 0 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:17.049 (7049866001)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 23:27:17.049 (7049913650)|CODE_UNIT_FINISHED|CommunitiesSelfRegConfirmControllerTest.testCommunitiesSelfRegConfirmController
+[sf:deploy] 23:27:17.051 (7051544500)|EXECUTION_FINISHED
+[sf:deploy] 23:27:17.153 (7153925103)|EXECUTION_STARTED
+[sf:deploy] 23:27:17.153 (7153937456)|CODE_UNIT_STARTED|[EXTERNAL]|01p24000005QoUx|CommunitiesSelfRegControllerTest.testCommunitiesSelfRegController
+[sf:deploy] 23:27:17.154 (7154242312)|METHOD_ENTRY|[4]|01p24000005QoUx|CommunitiesSelfRegControllerTest.CommunitiesSelfRegControllerTest()
+[sf:deploy] 23:27:17.154 (7154764694)|METHOD_EXIT|[4]|CommunitiesSelfRegControllerTest
+[sf:deploy] 23:27:17.154 (7154886595)|METHOD_ENTRY|[4]|01p24000005QoUw|CommunitiesSelfRegController.CommunitiesSelfRegController()
+[sf:deploy] 23:27:17.154 (7154899967)|METHOD_EXIT|[4]|CommunitiesSelfRegController
+[sf:deploy] 23:27:17.154 (7154932448)|CONSTRUCTOR_ENTRY|[7]|01p24000005QoUw|<init>()
+[sf:deploy] 23:27:17.155 (7155002936)|CONSTRUCTOR_EXIT|[7]|01p24000005QoUw|<init>()
+[sf:deploy] 23:27:17.155 (7155222524)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.155 (7155278437)|METHOD_ENTRY|[14]|01p24000005QoUw|test40.CommunitiesSelfRegController.registerUser()
+[sf:deploy] 23:27:17.155 (7155309658)|METHOD_ENTRY|[22]|01p24000005QoUw|test40.CommunitiesSelfRegController.isValidPassword()
+[sf:deploy] 23:27:17.155 (7155387915)|METHOD_EXIT|[22]|01p24000005QoUw|test40.CommunitiesSelfRegController.isValidPassword()
+[sf:deploy] 23:27:17.156 (7156119711)|METHOD_EXIT|[14]|01p24000005QoUw|test40.CommunitiesSelfRegController.registerUser()
+[sf:deploy] 23:27:17.156 (7156165088)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.156 (7156238659)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.156 (7156319251)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.156 (7156354997)|METHOD_ENTRY|[18]|01p24000005QoUw|test40.CommunitiesSelfRegController.registerUser()
+[sf:deploy] 23:27:17.156 (7156372715)|METHOD_ENTRY|[22]|01p24000005QoUw|test40.CommunitiesSelfRegController.isValidPassword()
+[sf:deploy] 23:27:17.156 (7156423442)|METHOD_EXIT|[22]|01p24000005QoUw|test40.CommunitiesSelfRegController.isValidPassword()
+[sf:deploy] 23:27:17.156 (7156636282)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.156 (7156676407)|VF_PAGE_MESSAGE|Passwords did not match.
+[sf:deploy] 23:27:17.156 (7156693118)|METHOD_EXIT|[18]|01p24000005QoUw|test40.CommunitiesSelfRegController.registerUser()
+[sf:deploy] 23:27:17.156 (7156709432)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.156 (7156741299)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 23:27:17.156 (7156741299)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 0 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:17.156 (7156741299)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 23:27:17.156 (7156783606)|CODE_UNIT_FINISHED|CommunitiesSelfRegControllerTest.testCommunitiesSelfRegController
+[sf:deploy] 23:27:17.158 (7158327538)|EXECUTION_FINISHED
+[sf:deploy] 23:27:17.239 (7239149568)|EXECUTION_STARTED
+[sf:deploy] 23:27:17.239 (7239162429)|CODE_UNIT_STARTED|[EXTERNAL]|01p24000003qlfA|DashboardVisualForceControllerTest.test_method_one
+[sf:deploy] 23:27:17.239 (7239472675)|METHOD_ENTRY|[2]|01p24000003qlfA|DashboardVisualForceControllerTest.DashboardVisualForceControllerTest()
+[sf:deploy] 23:27:17.239 (7239486780)|METHOD_EXIT|[2]|DashboardVisualForceControllerTest
+[sf:deploy] 23:27:17.239 (7239800221)|METHOD_ENTRY|[1]|01p24000003qRTd|DashboardVisualForceController.DashboardVisualForceController()
+[sf:deploy] 23:27:17.240 (7240483020)|METHOD_EXIT|[1]|DashboardVisualForceController
+[sf:deploy] 23:27:17.240 (7240575877)|CONSTRUCTOR_ENTRY|[6]|01p24000003qRTd|<init>()
+[sf:deploy] 23:27:17.240 (7240652386)|CONSTRUCTOR_EXIT|[6]|01p24000003qRTd|<init>()
+[sf:deploy] 23:27:17.240 (7240738978)|METHOD_ENTRY|[8]|01p24000003qRTd|test40.DashboardVisualForceController.getFillText()
+[sf:deploy] 23:27:17.240 (7240853364)|METHOD_ENTRY|[7]|01p24000003qRTd|test40.DashboardVisualForceController.GetTitleFromCustomSettingId()
+[sf:deploy] 23:27:17.240 (7240903191)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.241 (7241187042)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.241 (7241281826)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.241 (7241371680)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.243 (7243686063)|METHOD_EXIT|[7]|01p24000003qRTd|test40.DashboardVisualForceController.GetTitleFromCustomSettingId()
+[sf:deploy] 23:27:17.243 (7243698401)|METHOD_EXIT|[8]|01p24000003qRTd|test40.DashboardVisualForceController.getFillText()
+[sf:deploy] 23:27:17.243 (7243712034)|METHOD_ENTRY|[9]|01p24000003qRTd|test40.DashboardVisualForceController.getDashboardListSize()
+[sf:deploy] 23:27:17.243 (7243745393)|METHOD_ENTRY|[11]|01p24000003qRTd|test40.DashboardVisualForceController.GetTitleFromCustomSettingId()
+[sf:deploy] 23:27:17.243 (7243769090)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.243 (7243829735)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.243 (7243864250)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.243 (7243876312)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.245 (7245064794)|METHOD_EXIT|[11]|01p24000003qRTd|test40.DashboardVisualForceController.GetTitleFromCustomSettingId()
+[sf:deploy] 23:27:17.245 (7245116833)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.245 (7245132712)|METHOD_EXIT|[9]|01p24000003qRTd|test40.DashboardVisualForceController.getDashboardListSize()
+[sf:deploy] 23:27:17.245 (7245152669)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.245 (7245189428)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 23:27:17.245 (7245189428)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 0 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:17.245 (7245189428)|LIMIT_USAGE_FOR_NS|test40|
+[sf:deploy]   Number of SOQL queries: 2 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:17.245 (7245189428)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 23:27:17.245 (7245237789)|CODE_UNIT_FINISHED|DashboardVisualForceControllerTest.test_method_one
+[sf:deploy] 23:27:17.247 (7247784686)|EXECUTION_FINISHED
+[sf:deploy] 23:27:17.343 (7343003052)|EXECUTION_STARTED
+[sf:deploy] 23:27:17.343 (7343015082)|CODE_UNIT_STARTED|[EXTERNAL]|01p24000005QoUp|ForgotPasswordControllerTest.testForgotPasswordController
+[sf:deploy] 23:27:17.343 (7343321524)|METHOD_ENTRY|[4]|01p24000005QoUp|ForgotPasswordControllerTest.ForgotPasswordControllerTest()
+[sf:deploy] 23:27:17.343 (7343933278)|METHOD_EXIT|[4]|ForgotPasswordControllerTest
+[sf:deploy] 23:27:17.344 (7344050970)|METHOD_ENTRY|[4]|01p24000005QoUo|ForgotPasswordController.ForgotPasswordController()
+[sf:deploy] 23:27:17.344 (7344064323)|METHOD_EXIT|[4]|ForgotPasswordController
+[sf:deploy] 23:27:17.344 (7344098316)|CONSTRUCTOR_ENTRY|[7]|01p24000005QoUo|<init>()
+[sf:deploy] 23:27:17.344 (7344172636)|CONSTRUCTOR_EXIT|[7]|01p24000005QoUo|<init>()
+[sf:deploy] 23:27:17.344 (7344254360)|METHOD_ENTRY|[10]|01p24000005QoUo|test40.ForgotPasswordController.forgotPassword()
+[sf:deploy] 23:27:17.344 (7344555931)|METHOD_EXIT|[10]|01p24000005QoUo|test40.ForgotPasswordController.forgotPassword()
+[sf:deploy] 23:27:17.344 (7344582860)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.344 (7344625531)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 23:27:17.344 (7344625531)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 0 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:17.344 (7344625531)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 23:27:17.344 (7344668689)|CODE_UNIT_FINISHED|ForgotPasswordControllerTest.testForgotPasswordController
+[sf:deploy] 23:27:17.346 (7346541073)|EXECUTION_FINISHED
+[sf:deploy] 23:27:17.432 (7432634846)|EXECUTION_STARTED
+[sf:deploy] 23:27:17.432 (7432648108)|CODE_UNIT_STARTED|[EXTERNAL]|01p24000005QoUr|MyProfilePageControllerTest.testSave
+[sf:deploy] 23:27:17.432 (7432958469)|METHOD_ENTRY|[5]|01p24000005QoUr|MyProfilePageControllerTest.MyProfilePageControllerTest()
+[sf:deploy] 23:27:17.433 (7433554372)|METHOD_EXIT|[5]|MyProfilePageControllerTest
+[sf:deploy] 23:27:17.438 (7438891085)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.442 (7442622379)|METHOD_ENTRY|[5]|01p24000005QoUq|MyProfilePageController.MyProfilePageController()
+[sf:deploy] 23:27:17.442 (7442657003)|METHOD_EXIT|[5]|MyProfilePageController
+[sf:deploy] 23:27:17.442 (7442694767)|CONSTRUCTOR_ENTRY|[24]|01p24000005QoUq|<init>()
+[sf:deploy] 23:27:17.451 (7451065532)|CONSTRUCTOR_EXIT|[24]|01p24000005QoUq|<init>()
+[sf:deploy] 23:27:17.451 (7451135236)|METHOD_ENTRY|[25]|01p24000005QoUq|test40.MyProfilePageController.getUser()
+[sf:deploy] 23:27:17.451 (7451182470)|METHOD_EXIT|[25]|01p24000005QoUq|test40.MyProfilePageController.getUser()
+[sf:deploy] 23:27:17.451 (7451213376)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.451 (7451243705)|METHOD_ENTRY|[26]|01p24000005QoUq|test40.MyProfilePageController.getIsEdit()
+[sf:deploy] 23:27:17.451 (7451272848)|METHOD_EXIT|[26]|01p24000005QoUq|test40.MyProfilePageController.getIsEdit()
+[sf:deploy] 23:27:17.451 (7451300710)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.451 (7451321857)|METHOD_ENTRY|[27]|01p24000005QoUq|test40.MyProfilePageController.edit()
+[sf:deploy] 23:27:17.451 (7451364323)|METHOD_EXIT|[27]|01p24000005QoUq|test40.MyProfilePageController.edit()
+[sf:deploy] 23:27:17.451 (7451373497)|METHOD_ENTRY|[28]|01p24000005QoUq|test40.MyProfilePageController.getIsEdit()
+[sf:deploy] 23:27:17.451 (7451390033)|METHOD_EXIT|[28]|01p24000005QoUq|test40.MyProfilePageController.getIsEdit()
+[sf:deploy] 23:27:17.451 (7451407567)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.451 (7451425952)|METHOD_ENTRY|[29]|01p24000005QoUq|test40.MyProfilePageController.cancel()
+[sf:deploy] 23:27:17.456 (7456606812)|METHOD_EXIT|[29]|01p24000005QoUq|test40.MyProfilePageController.cancel()
+[sf:deploy] 23:27:17.456 (7456624316)|METHOD_ENTRY|[30]|01p24000005QoUq|test40.MyProfilePageController.getIsEdit()
+[sf:deploy] 23:27:17.456 (7456648529)|METHOD_EXIT|[30]|01p24000005QoUq|test40.MyProfilePageController.getIsEdit()
+[sf:deploy] 23:27:17.456 (7456671249)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.533 (7533084469)|CODE_UNIT_STARTED|[EXTERNAL]|01q24000000E5xz|test40.contactTaskTrigger on Contact trigger event AfterInsert for [00324000009EFVr]
+[sf:deploy] 23:27:17.533 (7533478208)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.533 (7533784353)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 23:27:17.533 (7533784353)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 0 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:17.533 (7533784353)|LIMIT_USAGE_FOR_NS|test40|
+[sf:deploy]   Number of SOQL queries: 4 out of 100
+[sf:deploy]   Number of query rows: 3 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 1 out of 150
+[sf:deploy]   Number of DML rows: 1 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:17.533 (7533784353)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 23:27:17.533 (7533864915)|CODE_UNIT_FINISHED|test40.contactTaskTrigger on Contact trigger event AfterInsert for [00324000009EFVr]
+[sf:deploy] 23:27:17.536 (7536539632)|METHOD_ENTRY|[48]|01p24000005QoUq|test40.MyProfilePageController.save()
+[sf:deploy] 23:27:17.649 (7649704003)|METHOD_EXIT|[48]|01p24000005QoUq|test40.MyProfilePageController.save()
+[sf:deploy] 23:27:17.649 (7649925739)|METHOD_ENTRY|[49]|01p24000005QoUq|test40.MyProfilePageController.changePassword()
+[sf:deploy] 23:27:17.649 (7649981934)|METHOD_EXIT|[49]|01p24000005QoUq|test40.MyProfilePageController.changePassword()
+[sf:deploy] 23:27:17.650 (7650064367)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.650 (7650101294)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.650 (7650147285)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 23:27:17.650 (7650147285)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 0 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:17.650 (7650147285)|LIMIT_USAGE_FOR_NS|test40|
+[sf:deploy]   Number of SOQL queries: 4 out of 100
+[sf:deploy]   Number of query rows: 3 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 2 out of 150
+[sf:deploy]   Number of DML rows: 2 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:17.650 (7650147285)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 23:27:17.650 (7650196703)|CODE_UNIT_FINISHED|MyProfilePageControllerTest.testSave
+[sf:deploy] 23:27:17.653 (7653021969)|EXECUTION_FINISHED
+[sf:deploy] 23:27:17.748 (7748830297)|EXECUTION_STARTED
+[sf:deploy] 23:27:17.748 (7748844994)|CODE_UNIT_STARTED|[EXTERNAL]|01p24000005QoUr|MyProfilePageControllerTest.testSetContactFields
+[sf:deploy] 23:27:17.749 (7749136339)|METHOD_ENTRY|[5]|01p24000005QoUr|MyProfilePageControllerTest.MyProfilePageControllerTest()
+[sf:deploy] 23:27:17.749 (7749850397)|METHOD_EXIT|[5]|MyProfilePageControllerTest
+[sf:deploy] 23:27:17.754 (7754064071)|METHOD_ENTRY|[5]|01p24000005QoUq|MyProfilePageController.MyProfilePageController()
+[sf:deploy] 23:27:17.754 (7754079162)|METHOD_EXIT|[5]|MyProfilePageController
+[sf:deploy] 23:27:17.754 (7754102560)|METHOD_ENTRY|[12]|01p24000005QoUq|test40.MyProfilePageController.setContactFields(Contact, User)
+[sf:deploy] 23:27:17.754 (7754430461)|METHOD_EXIT|[12]|01p24000005QoUq|test40.MyProfilePageController.setContactFields(Contact, User)
+[sf:deploy] 23:27:17.754 (7754485533)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.754 (7754555787)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.754 (7754601868)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 23:27:17.754 (7754601868)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 0 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:17.754 (7754601868)|LIMIT_USAGE_FOR_NS|test40|
+[sf:deploy]   Number of SOQL queries: 1 out of 100
+[sf:deploy]   Number of query rows: 1 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:17.754 (7754601868)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 23:27:17.754 (7754649968)|CODE_UNIT_FINISHED|MyProfilePageControllerTest.testSetContactFields
+[sf:deploy] 23:27:17.756 (7756341387)|EXECUTION_FINISHED
+[sf:deploy] 23:27:17.830 (7830310679)|EXECUTION_STARTED
+[sf:deploy] 23:27:17.830 (7830324069)|CODE_UNIT_STARTED|[EXTERNAL]|01p2400000AC69t|SampleDeployClass.t1
+[sf:deploy] 23:27:17.830 (7830620146)|METHOD_ENTRY|[2]|01p2400000AC69t|SampleDeployClass.SampleDeployClass()
+[sf:deploy] 23:27:17.830 (7830632457)|METHOD_EXIT|[2]|SampleDeployClass
+[sf:deploy] 23:27:17.830 (7830739460)|METHOD_ENTRY|[5]|01p2400000AC69t|test40.SampleDeployClass.helloMethod()
+[sf:deploy] 23:27:17.830 (7830812646)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.830 (7830834862)|USER_DEBUG|[20]|DEBUG|Hello World
+[sf:deploy] 23:27:17.830 (7830847646)|METHOD_EXIT|[5]|01p2400000AC69t|test40.SampleDeployClass.helloMethod()
+[sf:deploy] 23:27:17.852 (7852758326)|CODE_UNIT_STARTED|[EXTERNAL]|01q24000000cmyN|test40.SampleAccountTrigger on Account trigger event BeforeInsert for [new]
+[sf:deploy] 23:27:17.853 (7853179616)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.853 (7853262969)|METHOD_ENTRY|[4]|01p2400000AC69t|test40.SampleDeployClass.getPhone()
+[sf:deploy] 23:27:17.853 (7853326849)|METHOD_EXIT|[4]|01p2400000AC69t|test40.SampleDeployClass.getPhone()
+[sf:deploy] 23:27:17.853 (7853413973)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.853 (7853439412)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 23:27:17.853 (7853439412)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 0 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:17.853 (7853439412)|LIMIT_USAGE_FOR_NS|test40|
+[sf:deploy]   Number of SOQL queries: 0 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 1 out of 150
+[sf:deploy]   Number of DML rows: 1 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:17.853 (7853439412)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 23:27:17.853 (7853583341)|CODE_UNIT_FINISHED|test40.SampleAccountTrigger on Account trigger event BeforeInsert for [new]
+[sf:deploy] 23:27:17.910 (7910696690)|METHOD_ENTRY|[12]|01p2400000AC69t|test40.SampleDeployClass.getPhone()
+[sf:deploy] 23:27:17.910 (7910751146)|METHOD_EXIT|[12]|01p2400000AC69t|test40.SampleDeployClass.getPhone()
+[sf:deploy] 23:27:17.910 (7910811476)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:17.910 (7910868056)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 23:27:17.910 (7910868056)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 0 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:17.910 (7910868056)|LIMIT_USAGE_FOR_NS|test40|
+[sf:deploy]   Number of SOQL queries: 1 out of 100
+[sf:deploy]   Number of query rows: 1 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 1 out of 150
+[sf:deploy]   Number of DML rows: 1 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:17.910 (7910868056)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 23:27:17.910 (7910922774)|CODE_UNIT_FINISHED|SampleDeployClass.t1
+[sf:deploy] 23:27:17.912 (7912116599)|EXECUTION_FINISHED
+[sf:deploy] 23:27:17.997 (7997780687)|EXECUTION_STARTED
+[sf:deploy] 23:27:17.997 (7997792901)|CODE_UNIT_STARTED|[EXTERNAL]|01p2400000AC69u|SampleFailingTestClass.failingTest
+[sf:deploy] 23:27:17.998 (7998128709)|METHOD_ENTRY|[2]|01p2400000AC69u|SampleFailingTestClass.SampleFailingTestClass()
+[sf:deploy] 23:27:17.998 (7998142779)|METHOD_EXIT|[2]|SampleFailingTestClass
+[sf:deploy] 23:27:18.001 (8001419623)|CODE_UNIT_STARTED|[EXTERNAL]|01q24000000cmyN|test40.SampleAccountTrigger on Account trigger event BeforeInsert for [new]
+[sf:deploy] 23:27:18.001 (8001570192)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:18.001 (8001645038)|METHOD_ENTRY|[2]|01p2400000AC69t|SampleDeployClass.SampleDeployClass()
+[sf:deploy] 23:27:18.001 (8001653928)|METHOD_EXIT|[2]|SampleDeployClass
+[sf:deploy] 23:27:18.001 (8001664438)|METHOD_ENTRY|[4]|01p2400000AC69t|test40.SampleDeployClass.getPhone()
+[sf:deploy] 23:27:18.001 (8001689645)|METHOD_EXIT|[4]|01p2400000AC69t|test40.SampleDeployClass.getPhone()
+[sf:deploy] 23:27:18.001 (8001754079)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:18.001 (8001778118)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 23:27:18.001 (8001778118)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 0 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:18.001 (8001778118)|LIMIT_USAGE_FOR_NS|test40|
+[sf:deploy]   Number of SOQL queries: 0 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 1 out of 150
+[sf:deploy]   Number of DML rows: 1 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:18.001 (8001778118)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 23:27:18.001 (8001923743)|CODE_UNIT_FINISHED|test40.SampleAccountTrigger on Account trigger event BeforeInsert for [new]
+[sf:deploy] 23:27:18.035 (8035128539)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:18.035 (8035196595)|EXCEPTION_THROWN|[9]|System.AssertException: Assertion Failed: Expected: 867-5309, Actual: SamplePhone#
+[sf:deploy] 23:27:18.035 (8035304128)|FATAL_ERROR|System.AssertException: Assertion Failed: Expected: 867-5309, Actual: SamplePhone#
+[sf:deploy] 
+[sf:deploy] Class.test40.SampleFailingTestClass.failingTest: line 9, column 1
+[sf:deploy] 23:27:18.035 (8035315582)|FATAL_ERROR|System.AssertException: Assertion Failed: Expected: 867-5309, Actual: SamplePhone#
+[sf:deploy] 
+[sf:deploy] Class.test40.SampleFailingTestClass.failingTest: line 9, column 1
+[sf:deploy] 23:27:18.035 (8035330574)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 23:27:18.035 (8035330574)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 0 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:18.035 (8035330574)|LIMIT_USAGE_FOR_NS|test40|
+[sf:deploy]   Number of SOQL queries: 1 out of 100
+[sf:deploy]   Number of query rows: 1 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 1 out of 150
+[sf:deploy]   Number of DML rows: 1 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:18.035 (8035330574)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 23:27:18.035 (8035379918)|CODE_UNIT_FINISHED|SampleFailingTestClass.failingTest
+[sf:deploy] 23:27:18.036 (8036560984)|EXECUTION_FINISHED
+[sf:deploy] 23:27:18.121 (8121118363)|EXECUTION_STARTED
+[sf:deploy] 23:27:18.121 (8121131535)|CODE_UNIT_STARTED|[EXTERNAL]|01p24000005QoUj|SiteLoginControllerTest.testSiteLoginController
+[sf:deploy] 23:27:18.121 (8121433069)|METHOD_ENTRY|[4]|01p24000005QoUj|SiteLoginControllerTest.SiteLoginControllerTest()
+[sf:deploy] 23:27:18.122 (8122028243)|METHOD_EXIT|[4]|SiteLoginControllerTest
+[sf:deploy] 23:27:18.122 (8122144294)|METHOD_ENTRY|[4]|01p24000005QoUi|SiteLoginController.SiteLoginController()
+[sf:deploy] 23:27:18.122 (8122156711)|METHOD_EXIT|[4]|SiteLoginController
+[sf:deploy] 23:27:18.122 (8122187348)|CONSTRUCTOR_ENTRY|[7]|01p24000005QoUi|<init>()
+[sf:deploy] 23:27:18.122 (8122264770)|CONSTRUCTOR_EXIT|[7]|01p24000005QoUi|<init>()
+[sf:deploy] 23:27:18.122 (8122390110)|METHOD_ENTRY|[11]|01p24000005QoUi|test40.SiteLoginController.login()
+[sf:deploy] 23:27:18.122 (8122430819)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:18.122 (8122578228)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:18.122 (8122729382)|METHOD_EXIT|[11]|01p24000005QoUi|test40.SiteLoginController.login()
+[sf:deploy] 23:27:18.122 (8122746999)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:18.122 (8122787303)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 23:27:18.122 (8122787303)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 0 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:18.122 (8122787303)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 23:27:18.122 (8122827529)|CODE_UNIT_FINISHED|SiteLoginControllerTest.testSiteLoginController
+[sf:deploy] 23:27:18.124 (8124441001)|EXECUTION_FINISHED
+[sf:deploy] 23:27:18.202 (8202077710)|EXECUTION_STARTED
+[sf:deploy] 23:27:18.202 (8202091001)|CODE_UNIT_STARTED|[EXTERNAL]|01p24000005QoUl|SiteRegisterControllerTest.testRegistration
+[sf:deploy] 23:27:18.202 (8202445547)|METHOD_ENTRY|[4]|01p24000005QoUl|SiteRegisterControllerTest.SiteRegisterControllerTest()
+[sf:deploy] 23:27:18.203 (8203057039)|METHOD_EXIT|[4]|SiteRegisterControllerTest
+[sf:deploy] 23:27:18.203 (8203176914)|METHOD_ENTRY|[4]|01p24000005QoUk|SiteRegisterController.SiteRegisterController()
+[sf:deploy] 23:27:18.203 (8203213128)|METHOD_EXIT|[4]|SiteRegisterController
+[sf:deploy] 23:27:18.203 (8203246135)|CONSTRUCTOR_ENTRY|[6]|01p24000005QoUk|<init>()
+[sf:deploy] 23:27:18.203 (8203317915)|CONSTRUCTOR_EXIT|[6]|01p24000005QoUk|<init>()
+[sf:deploy] 23:27:18.203 (8203488092)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:18.203 (8203543673)|METHOD_ENTRY|[11]|01p24000005QoUk|test40.SiteRegisterController.registerUser()
+[sf:deploy] 23:27:18.203 (8203575451)|METHOD_ENTRY|[24]|01p24000005QoUk|test40.SiteRegisterController.isValidPassword()
+[sf:deploy] 23:27:18.203 (8203656157)|METHOD_EXIT|[24]|01p24000005QoUk|test40.SiteRegisterController.isValidPassword()
+[sf:deploy] 23:27:18.204 (8204072626)|METHOD_EXIT|[11]|01p24000005QoUk|test40.SiteRegisterController.registerUser()
+[sf:deploy] 23:27:18.204 (8204101999)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:18.204 (8204171751)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:18.204 (8204252100)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:18.204 (8204287481)|METHOD_ENTRY|[15]|01p24000005QoUk|test40.SiteRegisterController.registerUser()
+[sf:deploy] 23:27:18.204 (8204304543)|METHOD_ENTRY|[24]|01p24000005QoUk|test40.SiteRegisterController.isValidPassword()
+[sf:deploy] 23:27:18.204 (8204351679)|METHOD_EXIT|[24]|01p24000005QoUk|test40.SiteRegisterController.isValidPassword()
+[sf:deploy] 23:27:18.204 (8204527727)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:18.204 (8204568393)|VF_PAGE_MESSAGE|Passwords did not match.
+[sf:deploy] 23:27:18.204 (8204585415)|METHOD_EXIT|[15]|01p24000005QoUk|test40.SiteRegisterController.registerUser()
+[sf:deploy] 23:27:18.204 (8204602412)|ENTERING_MANAGED_PKG|
+[sf:deploy] 23:27:18.204 (8204633534)|CUMULATIVE_LIMIT_USAGE
+[sf:deploy] 23:27:18.204 (8204633534)|LIMIT_USAGE_FOR_NS|(default)|
+[sf:deploy]   Number of SOQL queries: 0 out of 100
+[sf:deploy]   Number of query rows: 0 out of 50000
+[sf:deploy]   Number of SOSL queries: 0 out of 20
+[sf:deploy]   Number of DML statements: 0 out of 150
+[sf:deploy]   Number of DML rows: 0 out of 10000
+[sf:deploy]   Maximum CPU time: 0 out of 10000
+[sf:deploy]   Maximum heap size: 0 out of 6000000
+[sf:deploy]   Number of callouts: 0 out of 100
+[sf:deploy]   Number of Email Invocations: 0 out of 10
+[sf:deploy]   Number of future calls: 0 out of 50
+[sf:deploy]   Number of queueable jobs added to the queue: 0 out of 50
+[sf:deploy]   Number of Mobile Apex push calls: 0 out of 10
+[sf:deploy] 
+[sf:deploy] 23:27:18.204 (8204633534)|CUMULATIVE_LIMIT_USAGE_END
+[sf:deploy] 
+[sf:deploy] 23:27:18.204 (8204674930)|CODE_UNIT_FINISHED|SiteRegisterControllerTest.testRegistration
+[sf:deploy] 23:27:18.206 (8206291183)|EXECUTION_FINISHED
+[sf:deploy] 

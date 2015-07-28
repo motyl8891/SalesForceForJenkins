@@ -1,0 +1,1 @@
+ant deployEmptyCheckOnly > log2.txt 2>&1
